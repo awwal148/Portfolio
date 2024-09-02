@@ -5,6 +5,7 @@ import Home from './components/Home'
 import Navbar from './components/Navbar'
 import Skills from './components/Skills'
 import Work from './components/Work'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Skills />
       <Work />
       <Contact />
+      <SpeedInsights/>
     </>
   )
 }

@@ -1,8 +1,8 @@
 import React from 'react'
 import blinkImg from '../assets/blinkshoe.jpeg'
-import foodStore from '../assets/HealthyVibes.jpeg'
+import ccsupport from '../assets/ccsupport.jpeg'
 import Portfolio from '../assets/Portfolio.jpeg'
-
+import buildgrain from '../assets/buildgrain.jpeg'
 
 const Work = () => {
   return (
@@ -13,7 +13,7 @@ const Work = () => {
           <p className='py-6'>Check some of my recent work</p>
         </div>
         <div 
-        className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+        className='grid sm:grid-cols-2 md:grid-cols-2 gap-4'>
           <div style={{backgroundImage: `url(${Portfolio})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
             <div className='opacity-0 group-hover:opacity-100'>
                 <span className='text-2xl font-bold text-white tracking-wider'>
@@ -32,7 +32,7 @@ const Work = () => {
           <div style={{backgroundImage: `url(${blinkImg})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
             <div className='opacity-0 group-hover:opacity-100'>
                 <span className='text-2xl flex flex-col justify-center items-center font-bold text-white tracking-wider'>
-                  Blink Shoes
+                  E-commerce Website (Blink Shoes)
                 </span>
                 <div className='pt-8 text-center'>
                   <a href='https://blinkshoe.netlify.app' target='_blank' rel="noreferrer noopener" >
@@ -44,36 +44,36 @@ const Work = () => {
                 </div>
               </div>
             </div>
-            <div style={{backgroundImage: `url(${foodStore})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+             <div style={{backgroundImage: `url(${buildgrain})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
             <div className='opacity-0 group-hover:opacity-100'>
                 <span className='text-2xl font-bold text-white tracking-wider'>
-                  Reactjs Application
+                    A Real Estate Website
                 </span>
                 <div className='pt-8 text-center'>
-                  <a href='https://healthyvibez.netlify.app' target='_blank' rel="noreferrer noopener">
+                  <a href='https://realeaste-web.vercel.app'>
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                   </a>
-                   <a href='https://github.com/awwal148/HealthyVibesResturant' target='_blank' rel="noreferrer noopener">
+                   <a href='https://github.com/awwal148/realeaste-web/'>
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Codes</button>
                   </a>
                 </div>
               </div>
             </div>
-            {/* <div style={{backgroundImage: `url(${blinkImg})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+            <div style={{backgroundImage: `url(${ccsupport})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
             <div className='opacity-0 group-hover:opacity-100'>
                 <span className='text-2xl font-bold text-white tracking-wider'>
-                  Reactjs Application
+                  Care Home Portal
                 </span>
                 <div className='pt-8 text-center'>
-                  <a href='/'>
+                  <a href='https://ccsupport-ivory.vercel.app' target='_blank' rel="noreferrer noopener">
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                   </a>
-                   <a href=''>
+                   <a href='https://github.com/awwal148/ccsupport' target='_blank' rel="noreferrer noopener">
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Codes</button>
                   </a>
                 </div>
               </div>
-            </div> */}
+            </div>
             {/* <div style={{backgroundImage: `url(${blinkImg})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
             <div className='opacity-0 group-hover:opacity-100'>
                 <span className='text-2xl font-bold text-white tracking-wider'>
